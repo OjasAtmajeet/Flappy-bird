@@ -104,6 +104,7 @@ function draw() {
         coinGroup.setVelocityXEach(0);
         pillar1Group.setLifetimeEach(-1);
         pillar2Group.setLifetimeEach(-1);
+        coinGroup.setLifetimeEach(-1);
         go.visible = true;
         restart.visible = true;
         camera.x = 300;
