@@ -64,6 +64,9 @@ function draw() {
         restart.visible = false;
         go.visible = false;
         bg.velocityX = -5; 
+        camera.x = bird.x;
+        camera.y = bird.y;
+        camera.zoom = 3;
         if (bg.x < 0) {
             bg.x = 500;
         }
@@ -103,6 +106,9 @@ function draw() {
         pillar2Group.setLifetimeEach(-1);
         go.visible = true;
         restart.visible = true;
+        camera.x = 300;
+        camera.y = 200;
+        camera.zoom = 1;
         if (mousePressedOver(restart)) {
             reset();
         }
