@@ -116,6 +116,7 @@ function draw() {
     }
     drawSprites();
     fill("black");
+ //commented statement
     text("coins: " + score, bird.x - 20, bird.y -15);
 }
 
