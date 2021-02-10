@@ -1,10 +1,9 @@
- var bird, birdI, bg, bgI;
+var bird, birdI, bg, bgI;
 var upsound, swoosh, die, hit, point;
 var restartI, restart, goI, go;
 var pillarI1, pillarI2, pillar2;
 var gameState = 0, gameState1 = 0;
 var coin, coinI;
-var cameraState = 0;
 var score = 0;
 var music;
 
